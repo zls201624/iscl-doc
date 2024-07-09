@@ -1,0 +1,41 @@
+site_name: isCL
+
+nav: 
+  - 首页: index.md
+  - 用户手册: isCL.md
+
+    
+
+theme:
+  name: material
+  palette:
+      - scheme: default
+        primary: green 
+        toggle:
+            icon: material/weather-night
+            name: Switch to dark mode
+      - scheme: slate
+        primary: red
+        toggle:
+            icon: material/weather-sunny
+            name: Switch to light mode
+  language: zh
+  features:
+    - content.code.annotate
+    - search.highlight
+    - navigation.top
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - attr_list
+
+plugins:
+    - search:
+
+copyright: Copyright &copy; 2021-2023 isCL

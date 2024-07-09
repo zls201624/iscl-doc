@@ -1,0 +1,5 @@
+# isCL
+
+新型智能合约语言用户手册
+
+[立刻进入](./isCL.md){ .md-button .md-button--primary }
